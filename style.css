@@ -1,0 +1,154 @@
+
+/* Reset some default spacing */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar branding */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #07052f !important; /* Deep blue */
+}
+
+/* Navbar background */
+.navbar {
+  height: 1.5rem;
+  font-size: 0.8rem;
+  background-color: #903939;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Nav links style */
+.navbar-nav .nav-link {
+  color: #041a2f !important;
+  font-weight: 500;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #003366;
+  color: #f6f5f9 !important;
+  
+}
+
+/* Dropdown */
+.dropdown-menu {
+  border-radius: 0;
+  border: 1px solid #dee2e6;
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef;
+  color: #003366;
+}
+
+/* Button */
+.custom-admission-btn {
+  color: #03284d;
+  border: 2px solid #003366;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.custom-admission-btn:hover {
+  background-color: #003366;
+  color: #ffffff;
+  border-color: #003366;
+}
+
+
+/* Adjust navbar on small screens */
+@media (max-width: 992px) {
+  .navbar-nav {
+    margin-top: 10px;
+  }
+}
+
+.navbar-nav{
+    margin-left: 10px;
+}
+.nav-link{
+    color:black;
+    font-weight: bold;
+    font-family: "Hind Vadodara", sans-serif;
+    transition: 0.5s ease;
+    
+}
+
+.nav-link:hover{
+    background-color: rgb(247, 246, 249);
+    color: rgb(6, 0, 0);
+    border-radius: 5px;
+}
+
+@media screen and (max-width:330px){
+    #logo{
+        font-size: 15px;
+    }
+}
+
+/* Main Navbar Styling */
+.main-navbar {
+  background-color: #f5f5f5;
+  padding: 20px 0; /* Increased height */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #003366 !important;
+}
+
+.logo-img {
+  height: 50px; /* adjust as needed */
+}
+
+.college-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #003366;
+  font-family: 'Georgia', serif;
+}
+
+/* Nav Links */
+.main-navbar .nav-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #03284d !important;
+  transition: 0.3s;
+}
+
+.main-navbar .nav-link:hover {
+  color: #007bff !important;
+  text-decoration: underline;
+}
+
+/* Button */
+.custom-admission-btn {
+  color: #003366;
+  border: 2px solid #003366;
+  background-color: transparent;
+  padding: 8px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.custom-admission-btn:hover {
+  background-color: #003366;
+  color: #ffffff !important;
+  border-color: #003366;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .main-navbar {
+    padding: 10px 0;
+  }
+  .custom-admission-btn {
+    margin-top: 10px;
+  }
+}
